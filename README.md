@@ -39,7 +39,8 @@ $('a').on('click', function(){
 Note
 ----------------
 
-This property (i.e. LIBS.confirmation) required 2 parameters and 1 optional parameter.
+This property (i.e. `LIBS.confirmation`) required 2 parameters and 1 optional parameter.
+
 1. `.text` -> Your message to be displayed (required)
 2. `.okAction` -> The callback when user click 'OK' button (required)
 3. `.element` -> The mother element for your own confirmation HTML tag. (optional)
