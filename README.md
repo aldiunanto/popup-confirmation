@@ -58,5 +58,6 @@ LIBS.confirmation(
 	);
 ```
 
-If you didn't do so, it will assume your `.element` has an ID called **confirmation**
+If you didn't do so, it will assume your `.element` has an ID called **confirmation**.
+
 Enjoy!
