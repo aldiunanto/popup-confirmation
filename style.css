@@ -1,0 +1,52 @@
+body{
+	margin: 0; padding: 0;
+	font: 13px normal verdana, arial, tahoma;
+}
+
+.btn{
+    border: medium none;
+    display: inline-block;
+    color: #CCC;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 6px 11px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn.default{
+	background-color: #A8AFB4;
+	color: #000;
+}
+.btn.primary{ background-color: #183A5E; }
+
+#confirmation{
+	display: none;
+	z-index: 7;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0; left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+#confirmation .container{
+	margin-top: 200px;
+	width: 100%;
+	display: block;
+	background-color: #DF4D00;
+}
+#confirmation .container .text{
+	padding: 25px 35px;
+	color: #fff;
+	font-size: 30px;
+	height: 130px;
+	border-bottom: 1px solid #EE5200;
+}
+#confirmation .container .actions{
+	text-align: right;
+	padding: 18px 30px 18px 20px;
+	border-top: 2px solid #C64400;
+}
+#confirmation .container .actions button{
+	padding: 15px 20px;
+	margin: 0 3px;
+}
