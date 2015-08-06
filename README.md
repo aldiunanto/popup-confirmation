@@ -61,3 +61,5 @@ LIBS.confirmation(
 If you didn't do so, it will assume your `.element` has an ID called **confirmation**.
 
 Enjoy!
+
+**Contributor and owner: [Aldi Unanto](http://aldiunanto.com) - aldiunanto@yahoo.com**
