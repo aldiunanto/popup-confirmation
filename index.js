@@ -1,7 +1,7 @@
 index = {
 
 	init: function(){
-		LIBS.confirmation();
+		
 	}
 
 };
