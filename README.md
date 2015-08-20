@@ -4,9 +4,14 @@ A simple popup confirmation using jQuery
 Usage
 ------------
 
-Import `libs.js`
+Import **jQuery Library** (in this case I used jquery-1.10.2 version) and `libs.js`
 ```html
 <script type="text/javascript" src="libs.js"></script>
+```
+
+Load the stylesheet
+```html
+<link rel="stylesheet" type="text/css" href="style.css" />
 ```
 
 Create your 'confirmation' element.
